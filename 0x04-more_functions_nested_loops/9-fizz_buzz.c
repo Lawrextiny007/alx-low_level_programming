@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -12,23 +12,20 @@
 int main(void)
 {
 int i;
-char f[] = "Fizz";
-char b[] = "Buzz";
-char fb[] = "FizzBuzz";
 
 for (i = 1; i <= 100; i++)
 {
-if (i == 100)
-printf("%s", b);
-else if ((i % 3 == 0) && (i % 5 == 0))
-printf("%s", fb);
+if ((i % 3 == 0) && (i % 5 == 0))
+printf("FizzBuzz");
 else if (i % 3 == 0 && i % 5 != 0)
-printf("%s", f);
+printf("Fizz");
 else if (i % 5 == 0 && i % 3 != 0)
-printf("%s ", b);
+printf("Buzz");
+else if (i == 1)
+printf("%d", i);
 else
-printf("%d ", i);
+printf(" %d", i);
 }
-printf("\n");
+printf("%d", '\n');
 return (0);
 }
