@@ -2,7 +2,7 @@
 /**
  * _strcpy - function that copies the string pointed to by src
  * @dest: this is a destiny
- * @src: this is the copier
+ * @src: this is the copy
  * Return: copy
  */
 
