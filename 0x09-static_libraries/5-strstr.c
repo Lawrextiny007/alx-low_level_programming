@@ -4,7 +4,7 @@
  * _strstr - Returns a pointer to the beginning of the located substring
  * @haystack: character haystack
  * @needle: character needle
- * Return: 0
+ * Return: void
  */
 
 char *_strstr(char *haystack, char *needle)
