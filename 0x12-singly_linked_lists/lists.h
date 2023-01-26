@@ -1,12 +1,12 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef LISTS_H
+#define LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 /**
- * struct list_s singly list list
+ * struct list_s - singly list list
  * @str: string - (malloc'ed string)
  * @len: lenght of the string
  * @next: points to the next node
