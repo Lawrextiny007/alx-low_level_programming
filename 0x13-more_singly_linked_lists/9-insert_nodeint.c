@@ -4,7 +4,7 @@
  * insert_nodeint_at_index - inserts a new node to a listint_t
  * list at a given position
  *
- * @head: A pointer to the address of the 
+ * @head: A pointer to the address of the
  * head of the listint_t list
  *
  * @idx: the index of the listint_t list where the new node
