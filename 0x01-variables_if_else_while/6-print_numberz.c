@@ -12,14 +12,13 @@
 
 int main(void)
 {
-	int c;
+	int n;
 
-	c = 0;
-	while
-		(c < 10) {
-			putchar(c + '0');
-			c++;
-		}
+	n = 0;
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 	return (0);
 }
