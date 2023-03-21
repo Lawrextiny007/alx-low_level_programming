@@ -2,6 +2,11 @@
 
 /**
  * _strncat - Return a pointer to the resulting string dest
+ *
+ * @dest: dest
+ * @src: src
+ * @n: n
+ *
  * Return: 0
  */
 
